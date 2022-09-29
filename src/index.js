@@ -1,8 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Form from './components/Form'
+import { Fragment } from 'react/cjs/react.production.min';
+import ParentComponent from './components/parentComponent';
+
+
 
 ReactDOM.render(
-  <Form />,
+  
+  <ParentComponent/>,
+  
+  
   document.getElementById('root')
+
 );
